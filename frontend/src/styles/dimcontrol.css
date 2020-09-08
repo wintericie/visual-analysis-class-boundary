@@ -1,0 +1,47 @@
+circle.end-point {
+    fill: dimgray;
+    fill-opacity: 0.8;
+    stroke: #222222;
+    stroke-width: 1;
+    cursor: pointer;
+}
+
+line.end-link {
+    stroke: #bcbcbc;
+    stroke-width: 0.75;
+}
+
+text.end-point-text {
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+text.end-point-text-emphasize {
+    font-weight: bold;
+    font-size: 12px !important;
+}
+
+.dim-control-disable-text {
+    display: none;
+}
+
+/*.axis path,*/
+/*.axis line {*/
+.dim-axis {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+/*.axis text {*/
+    /*display: none*/
+/*}*/
+
+.label-variance {
+    font-size: 12px;
+}
+
+.label-separation {
+    font-size: 12px;
+    transform: rotate(90deg);
+}

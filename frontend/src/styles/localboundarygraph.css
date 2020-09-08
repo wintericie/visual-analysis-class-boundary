@@ -1,0 +1,83 @@
+.main-container {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    /*margin-top: 7px;*/
+}
+
+.row-container {
+    padding: 4px;
+    float: left;
+    background: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.nondimmed-nodes {
+    fill-opacity: 1;
+    stroke-opacity: 1;
+    transition-property: fill-opacity, stroke-opacity;
+    transition-duration: 220ms;
+    transition-delay: 220ms;
+    transition-timing-function: ease;
+}
+
+.dimmed-nodes {
+    fill-opacity: 0.2;
+    stroke-opacity: 0.2;
+    transition-property: fill-opacity, stroke-opacity;
+    transition-duration: 220ms;
+    transition-delay: 220ms;
+    transition-timing-function: ease;
+}
+
+.nondimmed-edges {
+    stroke-opacity: 1;
+    transition: stroke-opacity;
+    transition-duration: 220ms;
+    transition-delay: 220ms;
+    transition-timing-function: ease;
+}
+
+.dimmed-edges {
+    stroke-opacity: 0.06 !important;
+    transition: stroke-opacity;
+    transition-duration: 220ms;
+    transition-delay: 220ms;
+    transition-timing-function: ease;
+}
+
+.description-label {
+    margin-bottom: 0 !important;
+}
+
+.emphasize-span {
+    font-weight: bold;
+}
+
+.transparent-cover-circles {
+    fill: white;
+    fill-opacity: 0;
+    stroke: white;
+    stroke-opacity: 0;
+    cursor: pointer;
+}
+
+.knn-edge {
+    filter: url(#glow-shadow);
+}
+
+.ant-collapse-content-box {
+    padding: 0 !important;
+}
+
+.ant-collapse-arrow {
+    left: 12px !important;
+}
+
+.ant-collapse-header {
+    padding-top: 8px !important;
+    padding-left: 28px !important;
+    padding-right: 8px !important;
+    padding-bottom: 8px !important;
+}

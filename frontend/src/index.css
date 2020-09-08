@@ -1,0 +1,5 @@
+html, body, #root {
+  height: 100%;
+  font-family: "Arial", "sans-serif" !important;
+  /*background-color: white;*/
+}

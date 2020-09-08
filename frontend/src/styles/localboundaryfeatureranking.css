@@ -1,0 +1,18 @@
+.ranking-bars {
+    /*fill: #1890ff;*/
+    stroke-width: 1;
+    stroke: #e8e8e8;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+
+.tick > text {
+    font-size: 11px;
+}

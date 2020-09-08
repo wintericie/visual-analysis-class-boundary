@@ -1,0 +1,34 @@
+{
+  "name": "proj-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "antd": "^3.16.1",
+    "d3": "^5.8.0",
+    "d3-drag": "^1.2.3",
+    "d3-selection": "^1.4.0",
+    "d3-simple-slider": "^1.4.1",
+    "d3-tip": "^0.9.1",
+    "echarts": "^4.2.0-rc.2",
+    "echarts-for-react": "^2.0.15-beta.0",
+    "gramschmidt": "^1.0.0",
+    "kd-tree-javascript": "^1.0.3",
+    "lodash": "^4.17.11",
+    "mathjs": "^5.3.1",
+    "numeral-es6": "^1.0.0",
+    "numericjs": "^1.2.6",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts": "^1.1.4",
+    "underscore": "^1.9.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {}
+}

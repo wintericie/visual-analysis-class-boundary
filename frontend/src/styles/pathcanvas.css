@@ -1,0 +1,79 @@
+#stable-root-group {
+    cursor: pointer;
+}
+
+.small-point {
+    stroke: #aaa;
+    stroke-width: 0.25;
+    fill-opacity: 0.5;
+    stroke-opacity: 0.5;
+}
+
+.small-dots-highlighted {
+    /*filter: url(#glow-shadow);*/
+    fill-opacity: 0.8 !important;
+    stroke: #222222 !important;
+    stroke-width: 1 !important;
+}
+
+.small-dots-dimmed {
+    /*fill: #cccccc !important;*/
+    opacity: 0.3 !important;
+}
+
+/*g.tick > text {*/
+    /*display: none;*/
+/*}*/
+
+.feature-weight-bars-rects {
+    fill: #dae4ee;
+    stroke: #AEB8C2;
+    stroke-width: 1.5;
+}
+
+.segment-name-text {
+    text-anchor: middle;
+    alignment-baseline: ideographic;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.segment-name-text:hover {
+    text-anchor: middle;
+    alignment-baseline: ideographic;
+    font-size: 13px;
+    font-weight: bold;
+    fill: #1A90FC;
+}
+
+.progressbar-frame-rect {
+    fill: rgb(252, 252, 252);
+    stroke: rgb(217, 217, 217);
+    stroke-width: 1px;
+}
+
+.id-numbers {
+    /*font-weight: bold;*/
+}
+
+.id-numbers:hover {
+    fill: #1A90FC;
+    /*font-weight: bold;*/
+}
+
+g.parameter-value > text {
+    display: none;
+}
+
+line.bold-line {
+    stroke-width: 3 !important;
+}
+
+.common-points {
+    stroke-width: 1 !important;
+    stroke: #222222 !important;
+}
+
+.noncommon-points {
+    opacity: 0.5 !important;
+}

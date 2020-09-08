@@ -1,0 +1,14 @@
+.dim-table-row {
+    font-size: 12px;
+    height: 12px;
+}
+
+.dim-table-column {
+    /*padding: 2px !important;*/
+}
+
+.ant-table-tbody > tr > td {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
